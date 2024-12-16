@@ -1,4 +1,4 @@
-import { Album, Brain, Globe, Lightbulb, Video, Sparkles } from "lucide-react";
+import { Album, Brain, Globe, Lightbulb, Sparkles } from "lucide-react";
 import { Slide } from "@/types/slides";
 
 export const slides: Slide[] = [
@@ -49,7 +49,7 @@ export const slides: Slide[] = [
   {
     id: 5,
     title: "Luma Dream Machine",
-    icon: Video, // Changed from Video to VideoCamera
+    icon: Sparkles, // Changed from Video to VideoCamera
     content: "Uma ferramenta gratuita de IA generativa para criar vídeos e representações visuais. Ideal para professores que desejam produzir conteúdo visual para suas aulas, permitindo a criação de cenas e animações que ilustram conceitos complexos de forma acessível.",
     link: {
       text: "Acessar Luma Labs",
