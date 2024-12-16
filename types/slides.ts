@@ -10,6 +10,6 @@ export interface Slide {
   title: string;
   icon: LucideIcon;
   content: string;
-  links?: Link[];
   link?: Link;
+  links?: Link[];
 }
